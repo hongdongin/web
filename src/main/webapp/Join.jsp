@@ -5,13 +5,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>KD</title>
-<link rel="icon" type="image/x-icon" href="<%=root %>/images/favicon.ico">
+<title>Insert title here</title>
 </head>
 <body>
 	<jsp:include page="/include/header.jsp" />
-	<b>홈페이지</b>
-	<%=root %>
-	
+	회원가입 페이지
 </body>
 </html>

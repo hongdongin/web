@@ -17,6 +17,7 @@
 <link rel="icon" type="image/x-icon" href="/web/images/favicon.ico">
 </head>
 <body>
+	
 	<%
 	Class.forName("org.mariadb.jdbc.Driver");
 	String url = "jdbc:mariadb://localhost:3307/kd";
@@ -55,6 +56,8 @@
 			<td colspan="4" align="center"><button>submit</button></td>
 		</tr>
 	</table>
+	
+	
 </body>
 </html>
 
