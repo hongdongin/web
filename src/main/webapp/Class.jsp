@@ -24,14 +24,14 @@
 	String sql = "SELECT*FROM BOARD_INFO";
 	ResultSet rs = stmt.executeQuery(sql);
 	%>
-	<table border="1" >
+	<table border="1">
 		<tr>
 			<th>번호</th>
 			<th>게시물</th>
 			<th>작성자</th>
 			<th>조회수</th>
 		</tr>
-		<tr >
+		<tr>
 			<td><b>1</b></td>
 			<td><b>첫번째</b></td>
 			<td><b>홍동인</b></td>
@@ -49,7 +49,7 @@
 			%>
 		
 		<tr>
-			<td colspan="4" align="center"><button	>submit</button></td>
+			<td colspan="4" align="center"><button>submit</button></td>
 		</tr>
 
 

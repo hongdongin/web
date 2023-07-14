@@ -1,11 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-	<%
-	String root = request.getContextPath();
-	%>
+<%
+String root = request.getContextPath();
+%>
 <div>
-	<a href="<%=root%>/">Home</a> 
-	<a href="<%=root%>/login.jsp">Login</a> 
-	<a href="<%=root%>/Join.jsp">Join</a>
-	<a href="<%=root%>/board.jsp">Board</a>
+	<a href="<%=root%>/">Home</a> <a href="<%=root%>/login.jsp">Login</a> <a
+		href="<%=root%>/Join.jsp">Join</a> <a href="<%=root%>/board.jsp">Board</a>
 </div>

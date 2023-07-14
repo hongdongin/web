@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>KD</title>
-<link rel="icon" type="image/x-icon" href="<%=root %>/images/favicon.ico">
+
 </head>
 <body>
 	<jsp:include page="/include/header.jsp" />
